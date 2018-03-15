@@ -93,8 +93,8 @@ class Counter {
         display=n;
         display.setvalue(value);
     }
-
-    void increment() {
+    //We only need to use synchronized here because only one thread can access to this method
+    synchronized void  increment() {
         int temp = value;   //read[v]
         CC.ForceCC();
         value=temp+1;       //write[v+1]
