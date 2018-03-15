@@ -9,8 +9,7 @@ public class Main {
 
 	public static void main(String args[]){
 		CS_Queue queue;
-		
-		queue=new CS_Queue();
+                queue=new CS_Queue();
 		
 		new Writer(queue);
 		new Reader(queue);
@@ -19,8 +18,8 @@ public class Main {
 		
 		//cola=new ColaSynchronized();
 		//cola=new ColaBusyWait();
-		//cola=new ColaConSeñales();
-		//queue=new ColaConSeñalesVariosConsumidores();
+		//cola=new ColaConSeï¿½ales();
+		//queue=new ColaConSeï¿½alesVariosConsumidores();
 		//cola=new ColaActivaVariosConsumidores();
 		
 		//new Consumidor(cola);
